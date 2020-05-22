@@ -6,9 +6,6 @@ Created on Wed May 20 12:20:05 2020
 """
 
 
-
-#from funcoes.desenho import forca
-#from funcoes.desenho import tela
 from funcoes.desenho import forca, telainicial
 from dicas.palavras import sorteiap
 
@@ -37,7 +34,7 @@ while continuar in 'Ss':
     for x in range(0,len(dadospalavra)):    
         word = dadospalavra[x][0] #resgata palavra
         dicauser = dadospalavra[x][1] #resgata dica
-    print(word)
+
     temp=[]
 
     for letra in word:
